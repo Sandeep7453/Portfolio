@@ -38,19 +38,19 @@ const Footer = () => {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400">
               <FaLinkedin />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
+            <a href="https://www.instagram.com/sandeep_s74?igsh=eW11aXN1YWxjNHhi" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
               <FaInstagram />
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
+            <a href="https://www.youtube.com/@StartWebNow" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
               <FaYoutube />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://github.com/Sandeep7453" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaGithub />
             </a>
-            <a href="https://Email.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
+            <a href="mailto:skumar7453955846@gmail.com?subject=Hello%20Sandeep&body=Hi%20Sandeep,%20I%20want%20to%20connect%20with%20you." target="_blank" rel="noopener noreferrer" className="hover:text-red-500">
               <MdEmail/>
             </a>
-          </div>
+          </div>  
         </div>
       </div>
 
@@ -61,6 +61,7 @@ const Footer = () => {
       <div className="text-center py-4 text-sm text-gray-500">
         © 2025 Sandeep Tamta. All Rights Reserved.  
         <span className="block">Built with ❤️ using React & Tailwind CSS.</span>
+        
       </div>
     </footer>
   )
