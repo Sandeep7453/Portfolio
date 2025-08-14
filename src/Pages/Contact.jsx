@@ -11,10 +11,10 @@ const form = useRef();
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_pp1ycdf',      // Service ID
+      'service_1479a4d',      // Service ID
       'template_b4c7b3m',     // Template ID
       form.current,         // Form reference
-      '_o_DQmu2IApwXg5-q'     // Public key
+      '3wAAasTYazW97jH0X'     // Public key
     )
     .then((result) => {
         console.log(result.text);
