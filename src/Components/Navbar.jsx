@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import DownlodCv from './DOwnlodCv'
+import DownlodCv from './DownlodCv'
 
 const Navbar = () => {
   return (
