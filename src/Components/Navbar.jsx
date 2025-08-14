@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import DownlodCv from './DownlodCv'
+import DownloadCv from './DownloadCv'
 
 const Navbar = () => {
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
         
           </ul>
       <div className='hidden md:block'>
-           <DownlodCv/>
+           <DownloadCv/>
       </div>
       </div>
     </div>
