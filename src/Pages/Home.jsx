@@ -10,7 +10,7 @@ import { DiReact } from "react-icons/di";
 import { DiCss3Full } from "react-icons/di";
 import { MdArrowRightAlt } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
-import DownlodCv from "../Components/DOwnlodCv";
+import DownlodCv from "../Components/DownlodCv";
 
 
 const morphVariants = {
