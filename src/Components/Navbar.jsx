@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import DownlodCv from './DOwnlodCv'
 
 const Navbar = () => {
   return (
@@ -18,8 +19,11 @@ const Navbar = () => {
           <Link to="/"> <li className='hover:text-cyan-400 active:text-cyan-300 focus:text-cyan-300'>Home</li>   </Link> 
            <Link to="/about">  <li className='hover:text-cyan-400'>About</li>  </Link> 
            <Link to="/contact">  <li className='hover:text-cyan-400'>Contact</li>   </Link>
+        
           </ul>
-      
+      <div className='hidden md:block'>
+           <DownlodCv/>
+      </div>
       </div>
     </div>
   )

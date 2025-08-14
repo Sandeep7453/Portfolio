@@ -9,6 +9,8 @@ import { DiJavascript } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { DiCss3Full } from "react-icons/di";
 import { MdArrowRightAlt } from "react-icons/md";
+import { FaPlus } from "react-icons/fa6";
+import DownlodCv from "../Components/DOwnlodCv";
 
 
 const morphVariants = {
@@ -35,6 +37,7 @@ const Home = () => {
           <h3 className=""> <span className="text-5xl md:text-9xl font-extrabold pl-5">Hey..!</span> <span className="text-3xl md:text-7xl">I'm </span><span className="text-4xl md:text-6xl font-bold italic text-cyan-400">Sandeep</span></h3> 
           <h3 className="text-xl md:text-3xl pt-1 md:pt-5 flex justify-center md:justify-start font-serif pl-5 italic text-gray-400"> "Frontend Developer | Building beautiful, fast websites"</h3>
 
+          <DownlodCv/>
           </div>  
 
 
@@ -63,6 +66,7 @@ const Home = () => {
               animate={{ rotate: -360 }}
               transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
             />
+            
           </motion.div>
         </motion.div>
       </div>
@@ -77,7 +81,7 @@ const Home = () => {
 
 
           
-       <SkillCard title="HTML 5" description="Standard language to structure web content using elements and tags. " icon={<DiHtml5 size={100} className="text-orange-500" />}/>
+       <SkillCard title="HTML 5" description="Standard language to structure web content using elements and tags. " icon={<DiHtml5 size={100} className="text-orange-500 hover:scale-105" />}/>
        <SkillCard title="CSS" description="CSS styles the web — bringing HTML to life with responsive designs." icon={< DiCss3 size={100} className="text-blue-600" />}/>
        <SkillCard title="JavaScript" description="JavaScript adds interactivity and dynamic behavior to websites, from animations to logic-driven actions. " icon={< DiJavascript size={100} className="text-yellow-500" />}/>
        <SkillCard title=" React" description="React is a JavaScript library for building fast and modular user interfaces using reusable components and hooks. " icon={<DiReact size={100} className="text-cyan-400" />}/>
@@ -214,14 +218,57 @@ Built multiple static websites and improved design thinking.</p></div>
 
 
 </div>
+
+
+
+
+
+
 {/* Horizontal line with shadow effect */}
  <div className="md:w-[90vw] w-[100vw] h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent shadow-[0_0_20px_cyan]"></div>
+
+
+<section4 className=" text-white my-10 md:w-[70%] h-fit">
+
+  <h1 className="text-4xl md:text-5xl font-semibold">A Peek Into My Creations</h1>
+  <p className="text-md font-sans md:mt-2">A glimpse into my latest projects and designs</p>
+  <div className="mt-10 flex justify-evenly w-full flex-col md:flex-row">
+    <div className=" w-72  bg-transparent backdrop-blur-lg border  border-white/10  rounded-2xl shadow-[0_0_3px_1px_rgba(10,244,237,0.4)]">
+    <img src="./images/Gobox_project.png" alt="" className="rounded-t-2xl" />
+    <p className="mx-2"> <span className="text-lg text-cyan-500 font-bold">Men’s Fashion Hub</span>  – A stylish and responsive e-commerce website designed for men’s fashion lovers. Built with <span className="text-cyan-300"> React & Tailwind</span> React & Tailwind focusing on clean UI and smooth navigation.</p>
+    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://gobox-menfashion.netlify.app/" target="_blank"> View Now</a></button>
+    </div>
+
+
+     <div className="w-72 mt-5 flex flex-col items-center justify-center border border-cyan-500 rounded-xl p-6 text-center 
+bg-black/40 text-white cursor-pointer 
+animate-pulse hover:animate-none hover:scale-105 hover:shadow-[0_0_20px_rgba(6,182,212,0.7)] 
+transition-all duration-300 ease-in-out">
+  
+  <span className="text-8xl mb-2">+</span>
+  <p className="text-lg font-medium">Next Big Thing Loading...</p>
+
+</div>
+
+  </div>
+</section4>
+
+ <div className="md:w-[90vw] w-[100vw] h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent shadow-[0_0_20px_cyan] mt-10"></div>
+
+
+
+
+
+
+
+
+
 
       <section3 className="h-fit md:w-[80vw] w-[90vw] flex flex-col md:flex-row justify-between  text-white pt-10" >
                           <div className="md:text-5xl text-2xl font-extrabold flex flex-col font-serif mb-10 ">
                               Why I’m a Good Fit for Your Project. 
                               <div className="flex justify-center">
-     <img src="./images/glowing_lineart.png" alt="" className=" size-100 mx-10 my-10 bg-transparent mix-blend-screen shadow-[0_0_15px_5px_rgba(48,241,224,0.8)] rounded-2xl " />
+     <img src="./images/glowing_lineart.png" alt="" className="hover:scale-105 transition-transform duration-300 size-100 mx-10 my-10 bg-transparent mix-blend-screen shadow-[0_0_15px_5px_rgba(48,241,224,0.8)] rounded-2xl " />
                               </div>
                        
                             </div>
@@ -266,7 +313,9 @@ Built multiple static websites and improved design thinking.</p></div>
       </section3>
  <div className="md:w-[90vw] w-[100vw] h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent shadow-[0_0_20px_cyan]"></div>
 
-<section4 className="h-screen"></section4>
+
+
+
       </div>
 
 
