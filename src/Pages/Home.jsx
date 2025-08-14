@@ -10,7 +10,7 @@ import { DiReact } from "react-icons/di";
 import { DiCss3Full } from "react-icons/di";
 import { MdArrowRightAlt } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
-import DownlodCv from "../Components/DownlodCv";
+import DownloadCv from "../Components/DownloadCv";
 
 
 const morphVariants = {
@@ -37,7 +37,7 @@ const Home = () => {
           <h3 className=""> <span className="text-5xl md:text-9xl font-extrabold pl-5">Hey..!</span> <span className="text-3xl md:text-7xl">I'm </span><span className="text-4xl md:text-6xl font-bold italic text-cyan-400">Sandeep</span></h3> 
           <h3 className="text-xl md:text-3xl pt-1 md:pt-5 flex justify-center md:justify-start font-serif pl-5 italic text-gray-400"> "Frontend Developer | Building beautiful, fast websites"</h3>
 
-          <DownlodCv/>
+          <DownloadCv/>
           </div>  
 
 
