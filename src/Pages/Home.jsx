@@ -236,7 +236,7 @@ Built multiple static websites and improved design thinking.</p></div>
     <div className=" w-72  bg-transparent backdrop-blur-lg border  border-white/10  rounded-2xl shadow-[0_0_3px_1px_rgba(10,244,237,0.4)]">
     <img src="./images/Gobox_project.png" alt="" className="rounded-t-2xl" />
     <p className="mx-2"> <span className="text-lg text-cyan-500 font-bold">Men’s Fashion Hub</span>  – A stylish and responsive e-commerce website designed for men’s fashion lovers. Built with <span className="text-cyan-300"> React & Tailwind</span> React & Tailwind focusing on clean UI and smooth navigation.</p>
-    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://gobox-menfashion.netlify.app/" target="_blank"> View Now</a></button>
+    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://go-box-men-fashion.vercel.app/" target="_blank"> View Now</a></button>
     </div>
 
 
