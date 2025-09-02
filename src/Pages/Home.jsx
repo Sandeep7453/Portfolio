@@ -236,11 +236,11 @@ Built multiple static websites and improved design thinking.</p></div>
     <div className=" w-72  bg-transparent backdrop-blur-lg border  border-white/10  rounded-2xl shadow-[0_0_3px_1px_rgba(10,244,237,0.4)]">
     <img src="./images/Gobox_project.png" alt="" className="rounded-t-2xl" />
     <p className="mx-2"> <span className="text-lg text-cyan-500 font-bold">Men’s Fashion Hub</span>  – A stylish and responsive e-commerce website designed for men’s fashion lovers. Built with <span className="text-cyan-300"> React & Tailwind</span> React & Tailwind focusing on clean UI and smooth navigation.</p>
-    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://gobox-menfashion.netlify.app/" target="_blank"> View Now</a></button>
+    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://go-box-men-fashion.vercel.app/" target="_blank"> View Now</a></button>
     </div>
 
 
-     <div className="w-72 mt-5 flex flex-col items-center justify-center border border-cyan-500 rounded-xl p-6 text-center 
+     <div className="w-72 mt-4 flex flex-col items-center justify-center border border-cyan-500 rounded-xl p-6 text-center 
 bg-black/40 text-white cursor-pointer 
 animate-pulse hover:animate-none hover:scale-105 hover:shadow-[0_0_20px_rgba(6,182,212,0.7)] 
 transition-all duration-300 ease-in-out">
@@ -254,7 +254,6 @@ transition-all duration-300 ease-in-out">
 </section4>
 
  <div className="md:w-[90vw] w-[100vw] h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent shadow-[0_0_20px_cyan] mt-10"></div>
-
 
 
 
