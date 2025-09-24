@@ -11,6 +11,8 @@ import { DiCss3Full } from "react-icons/di";
 import { MdArrowRightAlt } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
 import DownloadCv from "../Components/DownloadCv";
+import TextType from "../Components/Texttype";
+import LiquidChrome from "../Components/LiquidChrome";
 
 
 const morphVariants = {
@@ -34,8 +36,22 @@ const Home = () => {
 
 <div className="md:h-[80%] h-[50%] w-[95%] md:w-[85%] flex  flex-col md:flex-row justify-evenly items-center  bg-white/10 backdrop-blur-lg border  border-white/20  rounded-2xl shadow-[0_0_15px_5px_rgba(255,255,255,0.4)] py-20 md:py-10">
           <div className="text-white/85 font-serif">
-          <h3 className=""> <span className="text-5xl md:text-9xl font-extrabold pl-5">Hey..!</span> <span className="text-3xl md:text-7xl">I'm </span><span className="text-4xl md:text-6xl font-bold italic text-cyan-400">Sandeep</span></h3> 
+         <h3 className="">
+          <span className="text-4xl md:text-7xl font-extrabold pl-3">Hey..! </span>
+          <span className="text-2xl md:text-2xl pr-3">I'm </span>
+          <TextType
+            text={["Sandeep", "Frontend Developer", "React Enthusiast"]}
+            typingSpeed={75}
+            pauseDuration={1500}
+            showCursor={true}
+            cursorCharacter="|"
+            textColors={["#3b82f6", "#2563eb", "#1e40af"]}   // optional color cycle
+            className="text-3xl md:text-4xl font-bold italic"
+          />
+        </h3>
           <h3 className="text-xl md:text-3xl pt-1 md:pt-5 flex justify-center md:justify-start font-serif pl-5 italic text-gray-400"> "Frontend Developer | Building beautiful, fast websites"</h3>
+
+
 
           <DownloadCv/>
           </div>  
