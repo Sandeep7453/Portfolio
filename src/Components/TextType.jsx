@@ -156,16 +156,14 @@ const TextType = ({
       className: `inline-block whitespace-pre-wrap tracking-tight ${className}`,
       ...props
     },
-    <span className="inline" style={{ color: getCurrentTextColor() }}>
-      {displayedText}
-    </span>,
-    showCursor && (
-      <span
-        ref={cursorRef}
-        className={`ml-1 inline-block opacity-100 ${shouldHideCursor ? 'hidden' : ''} ${cursorClassName}`}
-      >
-        {cursorCharacter}
-      </span>
+    createElement('span', { className: 'inline', style: { color: getCurrentTextColor() } }, displayedText),
+    showCursor && createElement(
+      'span',
+      {
+        ref: cursorRef,
+        className: `ml-1 inline-block opacity-100 ${shouldHideCursor ? 'hidden' : ''} ${cursorClassName}`
+      },
+      cursorCharacter
     )
   );
 };

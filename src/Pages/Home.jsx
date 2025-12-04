@@ -11,7 +11,7 @@ import { DiCss3Full } from "react-icons/di";
 import { MdArrowRightAlt } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
 import DownloadCv from "../Components/DownloadCv";
-import TextType from "../Components/Texttype";
+// import TextType from "../Components/Texttype";
 import LiquidChrome from "../Components/LiquidChrome";
 
 
