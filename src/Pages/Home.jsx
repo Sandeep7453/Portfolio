@@ -256,6 +256,32 @@ Built multiple static websites and improved design thinking.</p></div>
     </div>
 
 
+<div className=" w-72  bg-transparent backdrop-blur-lg border  border-white/10  rounded-2xl shadow-[0_0_3px_1px_rgba(10,244,237,0.4)]">
+    <img src="./images/GharSeGuru.png" alt="" className="rounded-t-2xl" />
+<p className="mx-2">
+  <span className="text-lg text-cyan-500 font-bold">Ghar Se Guru</span> – 
+  A modern and interactive learning platform designed for students to study anytime, anywhere. 
+  Built with <span className="text-cyan-300">React & Tailwind</span>, focusing on a clean interface, 
+  smooth navigation, and an engaging learning experience.
+</p>    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://go-box-men-fashion.vercel.app/" target="_blank"> View Now</a></button>
+    </div>
+
+
+
+    <div className=" w-72  bg-transparent backdrop-blur-lg border  border-white/10  rounded-2xl shadow-[0_0_3px_1px_rgba(10,244,237,0.4)]">
+    <img src="./images/Momorable.png" alt="" className="rounded-t-2xl" />
+<p className="mx-2">
+  <span className="text-lg text-cyan-500 font-bold">Momorable</span> – 
+  A vibrant and appetizing food brand website created to showcase delicious recipes and premium food products. 
+  Built with <span className="text-cyan-300">React & Tailwind</span>, focusing on rich visuals, clean UI, 
+  and a smooth browsing experience.
+</p>
+    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://go-box-men-fashion.vercel.app/" target="_blank"> View Now</a></button>
+    </div>
+
+
+
+{/* 
      <div className="w-72 mt-4 flex flex-col items-center justify-center border border-cyan-500 rounded-xl p-6 text-center 
 bg-black/40 text-white cursor-pointer 
 animate-pulse hover:animate-none hover:scale-105 hover:shadow-[0_0_20px_rgba(6,182,212,0.7)] 
@@ -264,7 +290,7 @@ transition-all duration-300 ease-in-out">
   <span className="text-8xl mb-2">+</span>
   <p className="text-lg font-medium">Next Big Thing Loading...</p>
 
-</div>
+</div> */}
 
   </div>
 </section4>
