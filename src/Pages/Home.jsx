@@ -263,7 +263,7 @@ Built multiple static websites and improved design thinking.</p></div>
   A modern and interactive learning platform designed for students to study anytime, anywhere. 
   Built with <span className="text-cyan-300">React & Tailwind</span>, focusing on a clean interface, 
   smooth navigation, and an engaging learning experience.
-</p>    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://go-box-men-fashion.vercel.app/" target="_blank"> View Now</a></button>
+</p>    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://ghar-se-guru-oeis.vercel.app/" target="_blank"> View Now</a></button>
     </div>
 
 
@@ -276,12 +276,12 @@ Built multiple static websites and improved design thinking.</p></div>
   Built with <span className="text-cyan-300">React & Tailwind</span>, focusing on rich visuals, clean UI, 
   and a smooth browsing experience.
 </p>
-    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://go-box-men-fashion.vercel.app/" target="_blank"> View Now</a></button>
+    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://momorable-web.vercel.app/" target="_blank"> View Now</a></button>
     </div>
 
 
 
-{/* 
+
      <div className="w-72 mt-4 flex flex-col items-center justify-center border border-cyan-500 rounded-xl p-6 text-center 
 bg-black/40 text-white cursor-pointer 
 animate-pulse hover:animate-none hover:scale-105 hover:shadow-[0_0_20px_rgba(6,182,212,0.7)] 
@@ -290,7 +290,7 @@ transition-all duration-300 ease-in-out">
   <span className="text-8xl mb-2">+</span>
   <p className="text-lg font-medium">Next Big Thing Loading...</p>
 
-</div> */}
+</div>
 
   </div>
 </section4>
