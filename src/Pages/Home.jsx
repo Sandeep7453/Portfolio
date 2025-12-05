@@ -263,7 +263,7 @@ Built multiple static websites and improved design thinking.</p></div>
   A modern and interactive learning platform designed for students to study anytime, anywhere. 
   Built with <span className="text-cyan-300">React & Tailwind</span>, focusing on a clean interface, 
   smooth navigation, and an engaging learning experience.
-</p>    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://ghar-se-guru-oeis.vercel.app/" target="_blank"> View Now</a></button>
+</p>    <button className=" font-bold px-2 py-1 mt-3 rounded-2xl mx-3 mb-5 bg-cyan-300 text-black hover:text-white hover:bg-cyan-900"> <a href="https://ghar-se-guru-dun.vercel.app/" target="_blank"> View Now</a></button>
     </div>
 
 
